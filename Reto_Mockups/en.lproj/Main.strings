@@ -1,0 +1,168 @@
+
+/* Class = "UIButton"; normalTitle = "Registrarse"; ObjectID = "0AM-wI-2fz"; */
+"0AM-wI-2fz.normalTitle" = "Registrarse";
+
+/* Class = "UILabel"; text = "Pedro Hernández"; ObjectID = "1SW-1i-7SW"; */
+"1SW-1i-7SW.text" = "Pedro Hernández";
+
+/* Class = "UITextField"; placeholder = "Jorge Andrés"; ObjectID = "4Jn-2V-TE1"; */
+"4Jn-2V-TE1.placeholder" = "Jorge Andrés";
+
+/* Class = "UITextField"; placeholder = "Contraseña"; ObjectID = "4dt-JA-TQ5"; */
+"4dt-JA-TQ5.placeholder" = "Contraseña";
+
+/* Class = "UITabBarItem"; title = "Alta"; ObjectID = "56x-xD-0Ci"; */
+"56x-xD-0Ci.title" = "Alta";
+
+/* Class = "UIButton"; normalTitle = "Siguiente"; ObjectID = "6KH-dD-RvI"; */
+"6KH-dD-RvI.normalTitle" = "Siguiente";
+
+/* Class = "UITabBarItem"; title = "Recomendaciones"; ObjectID = "6bD-Gk-NSn"; */
+"6bD-Gk-NSn.title" = "Recomendaciones";
+
+/* Class = "UILabel"; text = "Número de beneficiados:"; ObjectID = "7VB-ef-EMM"; */
+"7VB-ef-EMM.text" = "Número de beneficiados:";
+
+/* Class = "UILabel"; text = "No entres en contacto físico cercano"; ObjectID = "7Zk-cy-QKR"; */
+"7Zk-cy-QKR.text" = "No entres en contacto físico cercano";
+
+/* Class = "UILabel"; text = "Número de beneficiados:"; ObjectID = "7cs-jA-dUg"; */
+"7cs-jA-dUg.text" = "Número de beneficiados:";
+
+/* Class = "UILabel"; text = "Mesa Colorada"; ObjectID = "8uP-i9-86S"; */
+"8uP-i9-86S.text" = "Mesa Colorada";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "BB0-Sf-8DZ"; */
+"BB0-Sf-8DZ.placeholder" = "0";
+
+/* Class = "UILabel"; text = "Contraseña"; ObjectID = "CIT-H2-27E"; */
+"CIT-H2-27E.text" = "Contraseña";
+
+/* Class = "UITextField"; placeholder = "Mesa Colorada"; ObjectID = "Cws-nX-cxC"; */
+"Cws-nX-cxC.placeholder" = "Mesa Colorada";
+
+/* Class = "UISearchBar"; placeholder = "Buscar"; ObjectID = "DIn-cw-0Gt"; */
+"DIn-cw-0Gt.placeholder" = "Buscar";
+
+/* Class = "UILabel"; text = "Sofía Valenzuela"; ObjectID = "DtO-JB-wpP"; */
+"DtO-JB-wpP.text" = "Sofía Valenzuela";
+
+/* Class = "UILabel"; text = "Nombre(s)"; ObjectID = "GJi-lI-ydx"; */
+"GJi-lI-ydx.text" = "Nombre(s)";
+
+/* Class = "UITabBarItem"; title = "Recomendaciones"; ObjectID = "I4T-83-n6x"; */
+"I4T-83-n6x.title" = "Recomendaciones";
+
+/* Class = "UILabel"; text = "Apellidos"; ObjectID = "IDM-Jb-Ba8"; */
+"IDM-Jb-Ba8.text" = "Apellidos";
+
+/* Class = "UIButton"; normalTitle = "Regístrate"; ObjectID = "Ige-fa-NuJ"; */
+"Ige-fa-NuJ.normalTitle" = "Regístrate";
+
+/* Class = "UITabBarItem"; title = "Beneficiarios"; ObjectID = "Iih-hB-9UN"; */
+"Iih-hB-9UN.title" = "Beneficiarios";
+
+/* Class = "UILabel"; text = "Tip #1"; ObjectID = "Jje-lu-iU0"; */
+"Jje-lu-iU0.text" = "Tip #1";
+
+/* Class = "UILabel"; text = "Nombre(s)"; ObjectID = "KDq-GR-Eeq"; */
+"KDq-GR-Eeq.text" = "Nombre(s)";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "NWM-Sx-fOK"; */
+"NWM-Sx-fOK.text" = "Email";
+
+/* Class = "UIBarButtonItem"; title = "Volver"; ObjectID = "O33-Kt-mLO"; */
+"O33-Kt-mLO.title" = "Volver";
+
+/* Class = "UILabel"; text = "Gutiérrez Orozco"; ObjectID = "Plz-1j-2XI"; */
+"Plz-1j-2XI.text" = "Gutiérrez Orozco";
+
+/* Class = "UITabBarItem"; title = "Alta"; ObjectID = "R22-41-jNr"; */
+"R22-41-jNr.title" = "Alta";
+
+/* Class = "UILabel"; text = "Comunidad"; ObjectID = "SyM-Nr-pCT"; */
+"SyM-Nr-pCT.text" = "Comunidad";
+
+/* Class = "UITabBarItem"; title = "Alta"; ObjectID = "Tyi-Qt-6It"; */
+"Tyi-Qt-6It.title" = "Alta";
+
+/* Class = "UILabel"; text = "Jorge Orozco"; ObjectID = "Ud6-UQ-0if"; */
+"Ud6-UQ-0if.text" = "Jorge Orozco";
+
+/* Class = "UIButton"; normalTitle = "Terminar"; ObjectID = "Vbj-HB-4Gj"; */
+"Vbj-HB-4Gj.normalTitle" = "Terminar";
+
+/* Class = "UILabel"; text = "Comunidad"; ObjectID = "Y0a-7g-xBJ"; */
+"Y0a-7g-xBJ.text" = "Comunidad";
+
+/* Class = "UITextField"; placeholder = "alguien@mail.com"; ObjectID = "ZbV-rk-u0e"; */
+"ZbV-rk-u0e.placeholder" = "alguien@mail.com";
+
+/* Class = "UITextField"; placeholder = "123abc"; ObjectID = "aOm-nP-Dwh"; */
+"aOm-nP-Dwh.placeholder" = "123abc";
+
+/* Class = "UILabel"; text = "Apellidos"; ObjectID = "aUk-B7-j5F"; */
+"aUk-B7-j5F.text" = "Apellidos";
+
+/* Class = "UIButton"; normalTitle = "Entrar"; ObjectID = "ayR-7T-wX2"; */
+"ayR-7T-wX2.normalTitle" = "Entrar";
+
+/* Class = "UILabel"; text = "Comunidad"; ObjectID = "cpO-Hg-h9e"; */
+"cpO-Hg-h9e.text" = "Comunidad";
+
+/* Class = "UIButton"; normalTitle = "Registrar"; ObjectID = "dUf-6L-Aok"; */
+"dUf-6L-Aok.normalTitle" = "Registrar";
+
+/* Class = "UILabel"; text = "Esteban Pizarro"; ObjectID = "eRn-zL-UWK"; */
+"eRn-zL-UWK.text" = "Esteban Pizarro";
+
+/* Class = "UILabel"; text = "Apellidos"; ObjectID = "eTg-82-Fsg"; */
+"eTg-82-Fsg.text" = "Apellidos";
+
+/* Class = "UIButton"; normalTitle = "< Volver"; ObjectID = "g01-cg-rqm"; */
+"g01-cg-rqm.normalTitle" = "< Volver";
+
+/* Class = "UILabel"; text = "Nombre(s)"; ObjectID = "gBi-l6-Zke"; */
+"gBi-l6-Zke.text" = "Nombre(s)";
+
+/* Class = "UILabel"; text = "Jorge Andrés"; ObjectID = "iaA-Y0-wW3"; */
+"iaA-Y0-wW3.text" = "Jorge Andrés";
+
+/* Class = "UITextField"; placeholder = "Gutiérrez Orozco"; ObjectID = "jNR-1o-AJx"; */
+"jNR-1o-AJx.placeholder" = "Gutiérrez Orozco";
+
+/* Class = "UILabel"; text = "Karen González"; ObjectID = "kPg-iM-YPM"; */
+"kPg-iM-YPM.text" = "Karen González";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "meX-f3-yc1"; */
+"meX-f3-yc1.text" = "4";
+
+/* Class = "UINavigationItem"; title = "Registro"; ObjectID = "nUX-SO-5Zc"; */
+"nUX-SO-5Zc.title" = "Registro";
+
+/* Class = "UIButton"; normalTitle = "Dar de baja"; ObjectID = "nhc-tO-3HY"; */
+"nhc-tO-3HY.normalTitle" = "Dar de baja";
+
+/* Class = "UITextField"; placeholder = "Usuario"; ObjectID = "njN-5V-1Ug"; */
+"njN-5V-1Ug.placeholder" = "Usuario";
+
+/* Class = "UILabel"; text = "Miranda Cuauhtémoc"; ObjectID = "nwH-VU-qef"; */
+"nwH-VU-qef.text" = "Miranda Cuauhtémoc";
+
+/* Class = "UITextField"; placeholder = "Gutiérrez Orozco"; ObjectID = "oKX-zI-JyJ"; */
+"oKX-zI-JyJ.placeholder" = "Gutiérrez Orozco";
+
+/* Class = "UITabBarItem"; title = "Recomendaciones"; ObjectID = "s1y-bx-WGp"; */
+"s1y-bx-WGp.title" = "Recomendaciones";
+
+/* Class = "UITabBarItem"; title = "Beneficiarios"; ObjectID = "smN-o4-wAd"; */
+"smN-o4-wAd.title" = "Beneficiarios";
+
+/* Class = "UITabBarItem"; title = "Beneficiarios"; ObjectID = "uJw-bg-wZZ"; */
+"uJw-bg-wZZ.title" = "Beneficiarios";
+
+/* Class = "UITextField"; placeholder = "Jorge Andrés"; ObjectID = "wa7-of-bXJ"; */
+"wa7-of-bXJ.placeholder" = "Jorge Andrés";
+
+/* Class = "UIButton"; normalTitle = "< Volver"; ObjectID = "xIf-i8-U8F"; */
+"xIf-i8-U8F.normalTitle" = "< Volver";
