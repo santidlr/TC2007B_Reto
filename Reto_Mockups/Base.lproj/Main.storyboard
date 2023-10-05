@@ -793,9 +793,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem title="Alta" image="person.crop.circle.badge.plus.fill" catalog="system" id="yjV-TJ-16L"/>
                                     <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="8hz-S3-DGl"/>
-                                    <tabBarItem title="Recomendaciones" image="questionmark.circle.fill" catalog="system" id="UUd-cB-Pjn"/>
                                     <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="V6L-Eb-iqy"/>
                                 </items>
                             </tabBar>
@@ -897,22 +895,27 @@
                                 <rect key="frame" x="44" y="845" width="97" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VeI-k1-U2S">
-                                <rect key="frame" x="0.0" y="761" width="390" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Alta" image="person.crop.circle.badge.plus.fill" catalog="system" id="vbr-cU-Gu5"/>
-                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="trD-om-qqP"/>
-                                    <tabBarItem title="Recomendaciones" image="questionmark.circle.fill" catalog="system" id="mfC-Vv-kcw"/>
-                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="Wnj-rJ-aPQ"/>
-                                </items>
-                            </tabBar>
                             <searchBar contentMode="redraw" fixedFrame="YES" text="" placeholder="Buscar" translatesAutoresizingMaskIntoConstraints="NO" id="O9A-Xv-K5A">
                                 <rect key="frame" x="0.0" y="88" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvd-Hh-EWI">
+                                <rect key="frame" x="16" y="47" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cambiar comunidad">
+                                    <color key="titleColor" red="1" green="0.42246211230000003" blue="0.37060548879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XAl-kU-2GE">
+                                <rect key="frame" x="0.0" y="761" width="390" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="sCf-de-VMG"/>
+                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="qgi-VQ-DIK"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eiS-Jk-3ka"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -940,17 +943,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mt2-g3-7cr">
-                                <rect key="frame" x="0.0" y="761" width="390" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Alta" image="person.crop.circle.badge.plus.fill" catalog="system" id="oTI-4I-QYG"/>
-                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="fb2-5v-sWK"/>
-                                    <tabBarItem title="Recomendaciones" image="questionmark.circle.fill" catalog="system" id="zbF-gz-YhK"/>
-                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="P3u-wa-na6"/>
-                                </items>
-                            </tabBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gZW-Oa-ZeP">
                                 <rect key="frame" x="0.0" y="106" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -969,6 +961,15 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A6f-4Q-LC9">
+                                <rect key="frame" x="0.0" y="761" width="390" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="C3I-D7-zui"/>
+                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="gab-NQ-wUi"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VTw-aT-HWG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1043,17 +1044,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wLR-0A-hor">
-                                <rect key="frame" x="0.0" y="751" width="390" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Alta" image="person.crop.circle.badge.plus.fill" catalog="system" id="20H-Sx-Bdn"/>
-                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="BIU-WD-rB3"/>
-                                    <tabBarItem title="Recomendaciones" image="questionmark.circle.fill" catalog="system" id="ybk-pr-Ayn"/>
-                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="4th-De-GO2"/>
-                                </items>
-                            </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpR-jy-B6v">
                                 <rect key="frame" x="138" y="627" width="114" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1061,6 +1051,15 @@
                                     <color key="titleColor" red="1" green="0.42246211230000003" blue="0.37060548879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ar9-YU-CUs">
+                                <rect key="frame" x="0.0" y="759" width="390" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="CrO-0U-DuT"/>
+                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="IvA-P4-gXr"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UxP-UC-bcp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1092,17 +1091,6 @@
                                 <rect key="frame" x="35" y="184" width="321" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAi-aL-hzg">
-                                <rect key="frame" x="0.0" y="761" width="390" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Alta" image="person.crop.circle.badge.plus.fill" catalog="system" id="wZa-bq-Gq0"/>
-                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="R4I-FL-LLd"/>
-                                    <tabBarItem title="Recomendaciones" image="questionmark.circle.fill" catalog="system" id="Gev-hy-wy0"/>
-                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="4h3-Ng-VYe"/>
-                                </items>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No entres en contacto físico cercano" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KC-zK-QHR">
                                 <rect key="frame" x="55" y="123" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1118,6 +1106,15 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lfC-cW-Usc">
+                                <rect key="frame" x="0.0" y="761" width="390" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="7yl-R8-hL4"/>
+                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="e7p-OZ-Dec"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K55-3x-IcB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1368,15 +1365,13 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fl4-hF-Trh">
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mgW-MW-wpl">
                                 <rect key="frame" x="0.0" y="761" width="390" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem title="Alta" image="person.crop.circle.badge.plus.fill" catalog="system" id="RtR-8n-jhC"/>
-                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="fNV-Ga-g41"/>
-                                    <tabBarItem title="Recomendaciones" image="questionmark.circle.fill" catalog="system" id="TWt-MK-fWw"/>
-                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="lBT-6j-Q9F"/>
+                                    <tabBarItem title="Beneficiarios" image="star.fill" catalog="system" id="tEr-EF-glM"/>
+                                    <tabBarItem title="Configuración" image="gearshape.fill" catalog="system" id="7ag-Hp-w4O"/>
                                 </items>
                             </tabBar>
                         </subviews>
